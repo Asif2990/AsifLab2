@@ -13,6 +13,8 @@ def div(num1, num2)
 
 def square(num1, num2):
 	return num1 ** num2
+def Mod(num1,num2):
+	return num1 % num2
 
 # main
 res = add(5, 3)
@@ -21,3 +23,4 @@ print(sub(5,3))
 print(mul(5,3))
 print(div(5,3))
 print(square(5,2))
+print(Mod(4,2))
